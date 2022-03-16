@@ -1,0 +1,50 @@
+/* BASE */
+* {
+margin: 0;
+}
+img {
+width: 100%;
+height: auto;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-family: serif;
+  text-align: center;
+  margin-bottom: 26px;
+  color: #3e2baa;
+}
+a {
+  text-decoration: none;
+}
+/*HEADER */
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+}
+/*MENU */
+.navbar {
+  display: flex;
+  flex direction: column;
+}
+.fa-pencil {
+  display: none;
+}
+/*HERO */
+.hero figure {
+  width: 100%;
+}
+.services, .Por-que-mapa-mundi, 
+.Nosotros p, .contact {
+  padding: 26px 
+}
+.services-list,
+.Lo-que-nos-mueve-list {
+  margin-top: 16px;
+}
+.Lo-que-nos-mueve-list {
+  margin-left: 26px;
+}
