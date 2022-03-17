@@ -28,7 +28,7 @@ padding: 16px;
 /*MENU */
 .navbar {
   display: flex;
-  flex direction: column;
+  flex-direction: column;
 }
 .fa-pencil {
   display: none;
@@ -47,4 +47,14 @@ padding: 16px;
 }
 .Lo-que-nos-mueve-list {
   margin-left: 26px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: lightcoral;
+  }
 }
