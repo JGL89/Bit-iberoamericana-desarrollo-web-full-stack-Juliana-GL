@@ -1,14 +1,11 @@
 body {
     text-align: center;
     background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   * {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
   }
- .main-container {
-   color: blue;
-   margin-bottom: flex;
-   bottom: 200px;
- }
+ 
