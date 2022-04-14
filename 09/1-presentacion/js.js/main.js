@@ -41,7 +41,7 @@ const handleSubmit = () => {
   //console.log(password);
   if (username && password) {
     //console.log('permitir acceso');
-    $private.classList.remove('privado');
+    $private.classList.remove('disable');
     //console.log($private);
     //console.log($modal);
     //console.log($close);
