@@ -1,13 +1,13 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Mi primer API Restful",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://https://github.com/JGL89/bit-iberoamericana-desarrollo-web-full-stack.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
