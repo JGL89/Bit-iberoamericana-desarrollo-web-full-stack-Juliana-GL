@@ -10,6 +10,7 @@
   "author": "https://https://github.com/JGL89/bit-iberoamericana-desarrollo-web-full-stack.com",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1"
   }
 }
