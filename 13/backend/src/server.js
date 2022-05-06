@@ -1,16 +1,20 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const todosRouter = require('./routes/todos');
+const todosRouter = require('./routes/todos');13
+
 
 const server = express();
 const port = 4000;
+
+server.use(express.json());
+server.use('/api/v1', todosRouter);
 
 dotenv.config();
 
 mongoose
   .connect(
-    'mongodb+srv://JuliDev:031789bb@cluster0.9d1qn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+    'mongodb+srv://admin:ADMIN@cluster0.9d1qn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     )
     .then(() =>console.log('conectado con la base de datos'))
     .catch((err) =>
@@ -22,7 +26,7 @@ server.get('/', (request, response) => {
   });
 
 
-  server.use('/api/v1', todosRouter);
+
 
   server.listen(port, () => {
     console.log(`Servidor corriendo en localhost, en el puerto ${port}`);
